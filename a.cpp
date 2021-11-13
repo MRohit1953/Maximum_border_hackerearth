@@ -12,14 +12,14 @@ int main()
 	cin >> num;		
 	for(int cae=0; cae < num; ++cae) 
 	{
-        int dong, cot, ans{0};
-        cin >> dong >> cot;
-        char table[dong][cot];
+        	int dong, cot, ans{0};
+        	cin >> dong >> cot;
+        	char table[dong][cot];
 		for (int i=0; i<dong; ++i) {
-            for (int j=0; j<cot; ++j) {
-                cin >> table[i][j];
-            }
-        }
+        		for (int j=0; j<cot; ++j) {
+                		cin >> table[i][j];
+            		}
+        	}
 		//find left --> right
 		for(int i=0; i<dong; ++i) {
 			int tmp{0}, flag1{0}, flag2{0}, a{0}, b{0};//flag to know where to end the border
